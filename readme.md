@@ -8,9 +8,9 @@ Como arrancar o proxecto paso a paso
 
 **Acceder ao directorio do proxecto:**
    ```bash
-   ```
+   
    cd ~/bda/e1-albergues
-
+   ```
 **Copiar e configurar o ficheiro de variables de contorno:**
 Copia o ficheiro de plantilla .env.example para crear o teu .env local:
 ```
