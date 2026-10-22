@@ -8,22 +8,23 @@ Como arrancar o proxecto paso a paso
 
 **Acceder ao directorio do proxecto:**
    ```bash
+   ```
    cd ~/bda/e1-albergues
 
 **Copiar e configurar o ficheiro de variables de contorno:**
 Copia o ficheiro de plantilla .env.example para crear o teu .env local:
-
+```
 Bash
 cp .env.example .env
-
+```
 Edita o ficheiro .env se desexas definir un usuario, contrasinal ou nome de base de datos personalizados.
 
 **Arrancar os servizos con Docker Compose:**
 Executa o seguinte comando para descargar as imaxes e iniciar os contenedores en segundo plano:
-
+```
 Bash
 docker compose up -d
-
+```
 **Acceder a Adminer:**
 Abre o navegador en http://localhost:8080 e introduce os seguintes datos de acceso:
 
